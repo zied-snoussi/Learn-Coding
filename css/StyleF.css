@@ -1,0 +1,77 @@
+body{
+    background-image:url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.content{
+    padding: 5%;
+    padding-bottom: 60px;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+*{
+  font-family: sans-serif;
+}
+fieldset{
+  background-color: rgba(140, 160, 200, 0.2);
+}
+legend{
+    font-size: 28px;
+    font-family:monospace;
+    color:black; 
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: bolder;     
+}
+td{
+  margin-bottom: 10px;
+  padding: 10px;
+  color: aliceblue;
+  font-variant: small-caps;
+  font-style: italic;
+  font-weight: bold;
+  font-family: cursive;
+  }
+textarea{
+  width: 80%;
+  height: 100px;
+}
+input{
+  width: 150px;
+}
+input[type="radio"], input[type="checkbox"]{
+  width: auto;
+}
+input[type="submit"],input[type="reset"]{
+  width: 100px;
+}
+.copyr{
+        margin-top: 0px;
+        width: 100%;
+        background-color: gray;
+        font-size: 20px;
+        opacity: 0.5;
+        }
+input[type="submit"],input[type="reset"]{
+    -webkit-appearance: none;
+    font-family:monospace;
+    font-weight: bolder;
+    color:dimgrey;
+    box-sizing:inherit;
+    width: 100px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    opacity: 50%;
+}
+#ins{
+    padding-left: 100px;
+}
+#Cancel{
+    padding-left: 300px;
+}

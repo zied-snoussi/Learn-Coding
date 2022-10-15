@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta http-equiv="content-language" content="en"/>
+        <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+        <meta name="author" content="zied snoussi"/>
+        <meta name="description" content="Registration Form"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" href="../icons/Logo.jpg"/>
+        <link rel="shortcut" href="../icons/Logo.jpg"/>
+        <link rel="apple-touch-icon" href="../icons/Logo.jpg"/>
+        <link rel="stylesheet" href="Style.css" type="text/css">
+    <title>Registration</title>
+    <link rel="stylesheet" href="../css/StyleF.css">
+</head>
+<body>
+<form method="post" action="Menu.html">
+    <div class="content">
+    <fieldset>
+   <legend>Personal information :</legend>
+        <table>
+            <tr>
+                <td><label for="lname">last name : </label></td>
+                <td><input type="text" name="lname" id="lname" size="50" maxlength="15" autocomplete required/></td>    
+            </tr>
+            <tr>
+                <td><label for="Fname">First name : </label></td>
+                <td><input type="text" name="Fname" id="Fname" size="50" maxlength="15" autocomplete required/></td>    
+            </tr>
+            <tr>
+                <td><label for="Date">Date of Birth :</label></td>
+                <td><input type="date" name="Date" id="Date"/></td>    
+            </tr>
+            <tr>
+                <td>Gender : </td>
+                <td>
+                    <input type="radio" name="Gender" id="Female" value="Female" checked/>
+                    <label for="Female">Female</label>
+                    <input type="radio" name="Gender" id="Male" value="Male"/>
+                    <label for="Male">Male</label>   </td>    
+            </tr>
+            <tr>
+                <td><label for="Country">Country : </label></td>
+                <td> <div>
+                <select id="Country" name="Country">
+                  <optgroup label="Europe">
+                    <option value="france">France</option>
+                    <option value="belgique">Belgique</option>
+                    <option value="suisse">Suisse</option>
+                   </optgroup>
+                  <optgroup label="Afrique">
+                    <option value="algerie">Algérie</option>
+                    <option value="tunisie">Tunisie</option>
+                    <option value="maroc">Maroc</option>
+                    <option value="madagascar">Madagascar</option>
+                    <option value="benin">Bénin</option>
+                    <option value="togo">Togo</option>
+                   </optgroup>
+                  <optgroup label="Amerique">
+                    <option value="canada">Canada</option>
+                  </optgroup>
+                </select>
+              </div></td>    
+            </tr>
+            <tr>
+                <td><label for="Language">Language : </label></td>
+                <td><input type="checkbox" id="Francais" name="Language" value="Francais">
+                <label for="Francais">French</label>
+                <input type="checkbox" id="Arabic" name="Language" value="Arabic">
+                <label for="Arabic">Arabic</label>
+                <input type="checkbox" id="English" name="Language" value="English">
+                <label for="English">English</label></td>    
+            </tr>
+            <tr>
+                <td><label for="email">E-mail : </label></td>
+                <td><input type="email" name="email" id="email" size="50" placeholder="abc@Gmail.com" autocomplete required/></td>    
+            </tr>
+        <tr>
+                <td><label for="exp">Explanation : </label></td>
+                <td><textarea name="exp" id="exp" rows="5" cols="50" placeholder="Describe an experience"></textarea></td>    
+            </tr>
+            <tr>
+                   <td id="ins">
+                    <input type="submit" value="Registration"/>
+                   </td>
+                   <td id="Cancel">
+                     <input type="reset" value="Cancel"/>
+                   </td>
+               </tr>
+        </table>
+</fieldset>
+</div>        
+<div  class="copyr"><marquee behavior="scroll"  scrollamount="5"  direction="left">  © 2021 ZIED SNOUSSI. All rights reserved.</marquee></div>    
+</form>    
+</body>    
+
+</html>
